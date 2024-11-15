@@ -3,8 +3,7 @@ function [TRAIN,TEST]=Get_Train_Test_Data_WB_2classes_general(guarda_signal,porc
 %tiempo de todos los pacientes. El objetivo es colocar esas series de
 %tiempo en dos matrices: TRAIN y TEST. Las series de tiempo se ordenan de
 %manera aleatoria y con casi el mismo número de casos en las dos matrices.
-%El resultado de esta función sirve como entrada de
-%one_nearest_classification_split_WB
+
 
 raw_TS=guarda_signal;
 TRAIN=[];

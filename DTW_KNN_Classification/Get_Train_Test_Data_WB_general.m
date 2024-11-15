@@ -4,8 +4,7 @@ function [TRAIN,TEST]=Get_Train_Test_Data_WB_general(guarda_signal,clases,porcen
 %tiempo en dos matrices: TRAIN y TEST. Las series de tiempo se ordenan de
 %manera aleatoria y con casi el mismo número de casos en las dos matrices.
 %porcentaje_train es e porcentaje para el conjunto de entrenamiento
-%El resultado de esta función sirve como entrada de
-%DTW_KNN_Classification_raw,DTW_KNN_Classification_raw_Con_restriccion
+
 
 
 %guarda_signal es la matriz que contiene las series de tiempo

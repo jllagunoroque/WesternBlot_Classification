@@ -68,16 +68,16 @@ DTW_KNN_Classification/ - Folder containing the codes to classify time series us
     ffouriert_filter_all_TS_db.m - Function that filters all the series in the database. The Fourier transform filter is used.
     gaussFilter.m - Creates a 1-D Gaussian kernel of a standard deviation 'segma' and a size of 'kSize'.
     gaussian_filter_all_TS_db.m - function that filters all series in the database. The Gaussian filter is used.
-DeepGA/
-    CNN_DeepGA.ipynb - DeepGA code that allows obtaining the CNN
-    Entrenamiento_DeppGA.ipynbCode - used to train the CNN
-    aumento_de_datos.ipynb - Code to artificially increase data
-Experimental CNN/
-    ECNN.m - Experimental convolutional neural network code(ECNN)
-Time Series Data base/
-    bd_st_DTW.mat - Time Series Data base
-Western Blot Images/
-    Color_dataset/
+    DeepGA/
+        CNN_DeepGA.ipynb - DeepGA code that allows obtaining the CNN
+        Entrenamiento_DeppGA.ipynbCode - used to train the CNN 
+        aumento_de_datos.ipynb - Code to artificially increase data
+    Experimental CNN/
+        ECNN.m - Experimental convolutional neural network code(ECNN)
+    Time Series Data base/
+        bd_st_DTW.mat - Time Series Data base
+    Western Blot Images/
+        Color_dataset/
            breast_benign_pathology - Images of benign breast pathology
            breast_cancer - Breast cancer images
            health - Healthy images
@@ -89,10 +89,6 @@ Western Blot Images/
            breast_benign_pathology - Images of benign breast pathology
            breast_cancer - Breast cancer images
            health - Healthy images
-           
-              
-
-
 
 
 
